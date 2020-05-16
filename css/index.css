@@ -1,0 +1,116 @@
+html, body{
+    color: white !important;
+    font-family: 'Roboto Mono', monospace;
+}
+.code {
+    font-family: 'Roboto Mono', monospace;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* header */
+#navbar {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 15px;
+
+    background-color: #1a82f7;
+        background: -moz-linear-gradient(right, #FFA5AB 30%, #DA627D 70%);
+        background: -o-linear-gradient(right, #FFA5AB 30%, #DA627D 70%);
+        background: -ms-linear-gradient(right, #FFA5AB 30%, #DA627D 70%);
+        background: -webkit-gradient(linear,right top,left top,color-stop(0.3, #FFA5AB),color-stop(0.7, #DA627D));
+    
+}
+#navbar .brand {
+    text-align: right;
+    padding: 5px 30px;
+}
+
+#navbar .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+}
+
+#navbar .content #menu {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#navbar .content .inp-search{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+
+}
+#navbar .content .inp-search::placeholder{
+    color: #CACACA;
+}
+#navbar .content .bnt-search {
+    padding: 1px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: transparent;
+    transform: translateY(3px);
+}
+#navbar .content .bnt-search i{
+    color: white;
+    font-size: 20px;
+}
+
+#navbar .content .login button {
+    padding: 4px 15px;
+    border-radius: 10px;
+}
+#navbar .content .login .bnt-login{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+#navbar .content .login .bnt-register{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+/* body-introduce */
+
+#introduce-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+}
+#introduce-body .left-body{
+    background-color: #AC4659;
+    padding: 75px 150px;
+}
+#introduce-body .left-body div {
+    margin-bottom: 20px;
+}
+#introduce-body .left-body button {
+    background-color: #F38375;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    color: white;
+    margin: 30px 0px;
+    font-weight: bold;
+
+}
+
+#introduce-body .right-body{
+    background-color: #DA627D;
+}
+#introduce-body .right-body .content{
+    text-align: center;
+    bottom: 0px;
+}
+
+
